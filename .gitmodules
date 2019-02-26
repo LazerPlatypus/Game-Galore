@@ -1,3 +1,9 @@
 [submodule "risk"]
 	path = risk
 	url = ../risk
+[submodule "Uno"]
+	path = Uno
+	url = https://github.com/nmolstad/Uno.git
+[submodule "Final-Project"]
+	path = Final-Project
+	url = https://github.com/DirtyDan00/Final-Project.git
