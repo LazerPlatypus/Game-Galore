@@ -1,6 +1,6 @@
 [submodule "risk"]
-	path = risk
-	url = ../risk
+	path = Risk
+	url = ../Risk
 [submodule "Uno"]
 	path = Uno
 	url = https://github.com/nmolstad/Uno.git
