@@ -20,4 +20,11 @@
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/application/risk</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/src/application</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
