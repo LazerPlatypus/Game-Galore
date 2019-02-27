@@ -7,3 +7,6 @@
 [submodule "Final-Project"]
 	path = Final-Project
 	url = https://github.com/DirtyDan00/Final-Project.git
+[submodule "BattleshipProject"]
+	path = BattleshipProject
+	url = https://github.com/464kiki/BattleshipProject.git
