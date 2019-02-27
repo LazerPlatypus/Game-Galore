@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>3</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>141</x>
+      <y>0</y>
+      <w>870</w>
+      <h>786</h>
+    </coordinates>
+    <panel_attributes>app
+--
+bg=#ffd700
+transparency=0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>156</x>
+      <y>21</y>
+      <w>45</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Driver
+-
+
+-
+_+ main(args : String[])_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>216</x>
+      <y>21</y>
+      <w>321</w>
+      <h>141</h>
+    </coordinates>
+    <panel_attributes>boardGame
+--
+bg=#888888
+transparency=0
+layer=-2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>231</x>
+      <y>42</y>
+      <w>99</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>controllers
+--
+layer=-1
+transparency=50
+bg=#ff0000
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>423</x>
+      <y>42</y>
+      <w>99</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>viewers
+--
+layer=-1
+transparency=50
+bg=#0000ff
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>51</y>
+      <w>93</w>
+      <h>93</h>
+    </coordinates>
+    <panel_attributes>BoardGameController
+-
+
+-
+_+ run() : void_
+_+ gameStarter() : void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>348</x>
+      <y>42</y>
+      <w>60</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>models
+--
+layer=-1
+transparency=50
+bg=#00ff00
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>426</x>
+      <y>51</y>
+      <w>93</w>
+      <h>93</h>
+    </coordinates>
+    <panel_attributes>BoardGameViewer
+-
+
+-
++ displayMenu() : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>552</x>
+      <y>21</y>
+      <w>90</w>
+      <h>141</h>
+    </coordinates>
+    <panel_attributes>interfaces
+--
+layer=-1
+transparency=50
+bg=#3300ff
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>30</y>
+      <w>84</w>
+      <h>93</h>
+    </coordinates>
+    <panel_attributes>View
+&lt;&lt;interface&gt;&gt;
+-
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>51</y>
+      <w>45</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.
+implements
+fg=#0000ff</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>165</x>
+      <y>54</y>
+      <w>27</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>bg=white
+transparency=0
+Everyone
+else's
+stuff
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>57</y>
+      <w>51</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;
+fg=#ff0000</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>156</x>
+      <y>177</y>
+      <w>840</w>
+      <h>594</h>
+    </coordinates>
+    <panel_attributes>risk
+--
+bg=#eeeeff
+layer=-2
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>606</x>
+      <y>198</y>
+      <w>312</w>
+      <h>558</h>
+    </coordinates>
+    <panel_attributes>controllers
+--
+layer=-1
+transparency=50
+bg=#ff0000</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>171</x>
+      <y>198</y>
+      <w>420</w>
+      <h>558</h>
+    </coordinates>
+    <panel_attributes>models
+--
+layer=-1
+transparency=50
+bg=#00ff00</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>933</x>
+      <y>198</y>
+      <w>48</w>
+      <h>558</h>
+    </coordinates>
+    <panel_attributes>viewers
+--
+layer=-1
+transparency=50
+bg=#0000ff</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>303</x>
+      <y>225</y>
+      <w>120</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>Board
+-
+- map : Map
+- undrawnCards : ArrayList&lt;Card&gt;
+- drawnCards : ArrayList&lt;Card&gt;
+- attackDice : Die[]
+- defenceDice : Die[]
+- players : Player[]
+- playerOrder : Player[]
+- activePlayer : Player
+
+-
+//basic constructor
++ Board() &lt;&lt;constructor&gt;&gt;
+
+//normal-use constructor
++ Board(map : Map, undrawnCards : ArrayList&lt;Card&gt;,
+    attackDice : Die[], defenceDice : Die[],
+    players : Player[]) &lt;&lt;constructor&gt;&gt;
+
+//verbose constructor
++ Board(map : Map, undrawnCards : ArrayList&lt;Card&gt;,
+    drawCards : ArrayList&lt;Card&gt;, attackDice : Die[],
+    defenceDice : Die[], players : Player[],
+    playerOrder : Player[], activePlayer : Player) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getMap() : Map
++ getUndrawnCards() : ArrayList&lt;Card&gt;
++ getDrawnCards() : ArrayList&lt;Card&gt;
++ getAttackDice() : Die[]
++ getDefenceDice() : Die[]
++ getPlayers() : Player[]
++ getPlayerOrder() : Player[]
++ getActivePlayer : Player[]
+
+//setters
++ setMap(map Map) : void
++ setUndrawnCards(undrawnCards : ArrayList&lt;Card&gt;) : void
++ setDrawnCards(drawnCards : ArrayList&lt;Card&gt;) : void
++ setAttackDice(attackDice : Die[]) : void
++ setDefenceDice(defenceDice : Die[]) : void
++ setPlayers(players : Player[]) : void
++ setPlayerOrder(playerOrder : Player[]) : void
++ setActivePlayer(activePlayer : Player) : void
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>303</x>
+      <y>432</y>
+      <w>132</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>Map
+-
+- countries : HashMap&lt;CountryName, Country&gt;
+
+-
+//basic constructor
++ Map() &lt;&lt;constructor&gt;&gt;
+
+//verbose constructor
++ Map(countries : HashMap&lt;CountryName, Country&gt;) &lt;&lt;contstructor&gt;&gt;
+
+//getters
++ getCountries() : HashMap&lt;CountryName, Country&gt;
+
+//setters
++ setCountries(countries : HashMap&lt;CountryName, Country&gt;) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>303</x>
+      <y>504</y>
+      <w>135</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>Country
+-
+- countryName : CountryName
+- territories : HashMap&lt;TerritoryName, Territory&gt;
+
+-
+//basic constructor
++ Country() &lt;&lt;constructor&gt;&gt;
+
+//verbose constructor
++ Country(countryName : CountryName,
+    territories : HashMap&lt;TerritoryName, Territory&gt;) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getCountryName() : CountryName
++ getTerritories : HashMap&lt;TerritoryName, Territory&gt;
+
+//setters
++ setCountryName(countryName : CountryName) : void
++ setTerritories(territories : HashMap&lt;TerritoryName, Territory&gt;) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>303</x>
+      <y>597</y>
+      <w>120</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>Territory
+-
+- occupyingUnits : ArrayList&lt;Unit&gt;
+- adjacentTerritories : Territory[]
+- territoryName : TerritoryName
+
+-
+//basic constructor 
++ Territory() &lt;&lt;constructor&gt;&gt;
+
+//normal-use constructor
++ Territory(territoryName : TerritoryName) &lt;&lt;constructor&gt;&gt;
+
+//verbose construtor
++ Territory(occupyingUnits : ArrayList&lt;Unit&gt;,
+    adjacentTerritories : Territory[],
+    territoryName : TerritoryName) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getOccupyingUnits() : ArrayList&lt;Unit&gt;
++ getAdjacentTerritories() : Territory[]
++ getTerritoryName() : TerritoryName
+
+//setters
++ setOccupyingUnits(occupyingUnits : ArrayList&lt;Unit&gt;) : void
++ setAdjacentTerritories(adjacentTerritories : Territory[]) : void
++ setTerritoryName(territoryName : TerritoryName) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>654</y>
+      <w>102</w>
+      <h>87</h>
+    </coordinates>
+    <panel_attributes>Unit
+-
+- unitColor : UnitColor
+- unitStatus : UnitStatus
+
+-
+//basic constructor
++ Unit() &lt;&lt;constructor&gt;&gt;
+
+//normal-use constructor
++ Unit(unitColor : UnitColor) &lt;&lt;constructor&gt;&gt;
+
+//verbose constructor
++ Unit(unitColor : UnitColor,
+    unitStatus : UnitStatus) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getUnitColor() : UnitColor
++ getUnitStatus() : UnitStatus
+
+//setters
++ setUnitColor(unitColor : UnitColor) : void
++ setUnitStatus(unitStatus : UnitStatus) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>603</y>
+      <w>135</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Player
+-
+- name : String
+- inactiveUnits : ArrayList&lt;Unit&gt;
+- activeUnits : ArrayList&lt;Unit&gt;
+- cards : ArrayList&lt;Card&gt;
+- ownedTerritories : ArrayList&lt;Territory&gt;
+
+-
+//basic constructor
++ Player() &lt;&lt;constructor&gt;&gt;
+
+//normal-use constructor
++ Player(name : String, inactiveUnits : ArrayList&lt;Unit&gt;) &lt;&lt;constructor&gt;&gt;
+
+//verbose constructor
++ Player(name : String, inactiveUnits : ArrayList&lt;Unit&gt;,
+    activeUnits : ArrayList&lt;Unit&gt;, cards : ArrayList&lt;Card&gt;,
+    ownedTerritories : ArrayList&lt;Territory&gt;) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getName() : String
++ getInactiveUnits() : ArrayList&lt;Unit&gt;
++ getActiveUnits() : ArrayList&lt;Unit&gt;
++ getCards() : ArrayList&lt;Card&gt;
++ getOwnedTerritories : ArrayList&lt;Territory&gt;
+
+//setters
++ setName(name : String) : void
++ setInactiveUnits(inactiveUnits : ArrayList&lt;Unit&gt;) : void
++ setActiveUnits(activeUnits : ArrayList&lt;Unit&gt;) : void
++ setCards(cards : ArrayList&lt;Card&gt;) : void
++ setOwnedTerritories(ownedTerritories : ArrayList&lt;Territory&gt;) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>225</y>
+      <w>117</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Card
+-
+- unitOnCard : UnitName
+- territoryOnCard : TerritoryName
+
+-
+//basic constructor
++ Card() &lt;&lt;constructor&gt;&gt;
+//verbose constructor
++ Card(unitOnCard : UnitName,
+    territoryOnCard : TerritoryName) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getUnitOnCard() : unitOnCard
++ getTerritoryOnCard() : TerritoryName
+
+//setters (will almost never be used)
++ setUnitOnCard(unitOnCard : UnitName) : void
++ setTerritoryOnCard(territoryOnCard : TerritoryName) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>438</x>
+      <y>312</y>
+      <w>87</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>Die
+-
+- dieType : DieType
+- rng : Random
+- outcome : int
+
+-
+//basic constructor
++ Die() &lt;&lt;constructor&gt;&gt;
+
+//normal-use constructor
++ Die(dieType : DieType) &lt;&lt;constructor&gt;&gt;
+
+//verbose construtor
++ Die(dieType : DieType, rng : Random,
+    outcome : int) &lt;&lt;constructor&gt;&gt;
+
+//getters
++ getDieType() : DieType
++ getRng() : Random
++ getOutcome() : int
+
+//setters
++ setDieType(dieType : DieType) : void
++ setRng(rng : Random) : void
++ setOutcome(outcome : int) : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>186</x>
+      <y>219</y>
+      <w>102</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>Enums
+--
+bg=#ffffff</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>201</x>
+      <y>240</y>
+      <w>72</w>
+      <h>219</h>
+    </coordinates>
+    <panel_attributes>layer=2
+TerritoryName
+&lt;&lt;enum&gt;&gt;
+-
+ALASKA
+ALBERTA
+CENTERAL_AMERICA
+EASTERN_UNITED_STATES
+GREENALD
+NORTHWEST_TERRITORY
+CENTERAL_CANADA
+EASTERN_CANADA
+WESTERN_UNITED_STATES
+ARGENTINA
+BRAZIL
+PERU
+VENEZUELA
+GREAT_BRITAIN_AND_IRELAND
+ICELAND
+NORTHERN_EUROPE
+SCANDINAVIA
+SOUTHERN_EUROPE
+UKRAINE
+WESTERN_EUROPE
+CENTRAL_AFRICA
+EAST_AFRICA
+EGYPT
+MADAGASCAR
+NORTH_AFRICA
+SOUTH_AFRICA
+AFGHANISTAN
+CHINA
+INDIA
+IRKUTSK
+JAPAN
+KAMCATKA
+MIDDLE_EAST
+MONGOLIA
+SOUTHEAST_ASIA
+SIBERIA
+URAL
+YAKUTSK
+EASTERN_AUSTRALIA
+INDONEASIA
+NEW_GUINEA
+WESTERN_AUSTRELIA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>201</x>
+      <y>534</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>layer=2
+UnitName
+&lt;&lt;enum&gt;
+-
+SOLDIER
+CALVERY
+CANNON</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>201</x>
+      <y>474</y>
+      <w>48</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>layer=2
+CountryName
+&lt;&lt;enum&gt;&gt;
+-
+NORTH_AMERICA
+SOUTH_AMERICA
+EUROPE
+AFRICA
+ASIA
+AUSTRALIA</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>201</x>
+      <y>579</y>
+      <w>30</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>layer=2
+UnitColor
+&lt;&lt;enum&gt;&gt;
+-
+RED,
+ORANGE,
+YELLOW,
+GREEN
+BLUE,
+VIOLET</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>579</y>
+      <w>30</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>layer=2
+UnitStatus
+&lt;&lt;enum&gt;&gt;
+-
+ACTIVE,
+INACTIVE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>534</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>layer=2
+DieType
+&lt;&lt;enum&gt;&gt;
+-
+ATTACK,
+DEFENCE,
+ORDER
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>219</y>
+      <w>75</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>RiskController
+-
+- gameController : GameController
+- view : View
+
+-
+_+ run() : void_
+_- initilize() : void_
+_- menu() : void_
+_- makeGame() : void_
+_- loadGame() : void_
+_- saveGame() : void_
+_- startGame() : void_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>300</y>
+      <w>93</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>GameController
+-
+- currentBoardController : BoardController
+- currentGamePhase : int
+-
++ resumeGame(currentGamePhase : int) : void
+- setupPhase() : void
+- mainPhase() : void
+- endPhase() : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>393</y>
+      <w>84</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>TurnController
+-
+- currentBoardController : BoardController
+
+-
++ startTurn() : void
+- dealUnits() : void
+- placeUnits() : void
+- attack() : void
+- moveUnits() : void
+- endTurn() : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>357</y>
+      <w>90</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>PlayerController
+-
+//_-currentPlayer : Player_
+
+-
++ makePlayer() : Player
+//_+ modifyPlayer(currentPlayer : Player) : Player_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>606</y>
+      <w>90</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>DieController
+-
+//_-currentDie : Die_
+
+-
++ makeDie() : Die
+//_+ modifyDie(currentDie : Die) : Die_
+//_+ rollDie() : int_
+- rollDie(currentDie : Die) : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>729</x>
+      <y>294</y>
+      <w>174</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>MapController
+-
+//_-currentMap : Map_
+
+-
++ makeMap() : Map
+//_+ modifyMap(currentMap : Map, args : String[]) : Map_
+
++ getCountries(currentMap : Map) : HashMap&lt;CountryName, Country&gt;
++ getCountry(currentMap : Map, countryName : CountryName) : Country
+
+//_+ getCurrentMapCountries() : HashMap&lt;CountryName, Country&gt;)
+//_+ getCurrentMapCountry(countryName : CountryName) : Country
+//
++ setCountries(currentMap : Map, countries : HashMap&lt;CountryName, Country&gt;) : void
++ setCountry(currentMap : Map, countryName : CountryName, country : Country) : boolean
+
+//_+ setCurrentMapCountries(countries : HashMap&lt;CountryName, Country&gt;) : void
+//_+ setCurrentMapCountry(countryName : CountryName, country Country) : boolean</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>525</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>TerritoryController
+-
+//_currentTerritory : Territory_
+
+-
++ makeTerritory() : Territory
+
++ getTerritoryOccupyingUnits(currentTerritory : Territory) : ArrayList&lt;Unit&gt;
++ getAdjacentTerritories(currentTerritory : Territory) : Territory[]
++ getTerritoryName() : TerritoryName
+
++ setTerritoryOccupyingUnits(currentTerritory : Territory, occupyingUnits : ArrayList&lt;Unit&gt;) : void
++ changeNumberOfTerriotryOccupyingUnits(currentTerritory : Territory, numberOfOccupyingUnitsToChangeBy : int) : int
++ setAdjacentTerritories(currentTerritory : Territory, adjacentTerritories : Territory[]) : void
++ setTerritoryName(currentTerritory : Territory, territoryName : TerritoryName) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>711</x>
+      <y>219</y>
+      <w>192</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>CountryController
+-
+//_-currentCountry : Country_
+
+-
+//country builders
++ makeCountry() : Country
+//_+ modifyCountry(currentCountry : Country, args : String[]) : Country_
+
+//country information retrieval
++ getCountryName(currentCountry : Country) : CountryName
++ getTerritories(currentCountry : Country) : HashMap&lt;String, Territory&gt;
++ getCountryTerritory(currentCountry : Country, territoryName : TerritoryName) : Territory
+
+//_+ getCurrentCountryName() : CountryName_
+//_+ getCurrentCountryTerritories() : HashMap&lt;String, Territory&gt;_
+//_+ getCurrentCountryTerritory(territoryName : TerritoryName) : Territory_
+//
+//country information placement
++ setCountryName(currentCountry : Country, countryName : CountryName) : void
++ setTerritory(currentCountry : Country, territoryName : TerritoryName, territory : Territory) : boolean
++ setCountryTerritories(currentCountry : Country, territories : HashMap&lt;String, Territory&gt;) : void
+
+//_+ setCurrentCountryName(countryName : CountryName) : void_
+//_+ setCurrentCountryTerritory(territoryName : TerritoryName, territory : Territory) : boolean_
+//_+ setCurrentCountryTerritories(territories : HashMap&lt;String, Territory&gt;) : void_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>621</x>
+      <y>459</y>
+      <w>123</w>
+      <h>51</h>
+    </coordinates>
+    <panel_attributes>UnitController
+-
+
+-
++ makeUnit() : Unit
+
+//getters
++ getUnitColor(currentUnit : Unit) : UnitColor
++ getUnitStatus(currentUnit : Unit) : UnitStatus
+
+//setters
++ setUnitColor(currentUnit : Unit, unitColor : UnitColor) : void
++ setUnitStatus(currentUnit : Unit, unitStatus : UnitStatus) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>207</x>
+      <y>66</y>
+      <w>420</w>
+      <h>162</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;
+fg=#ff0000</panel_attributes>
+    <additional_attributes>1380.0;520.0;1310.0;520.0;1310.0;340.0;10.0;340.0;10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>777</x>
+      <y>360</y>
+      <w>126</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>BoardController
+-
+- currentBoard : Board
+
+-
++ makeBoard() : void
++ getMap() : Map
++ getUndrawnCards() : ArrayList&lt;Card&gt;
++ getDrawnCards() : ArrayList&lt;Card&gt;
++ getAttackDice() : Die[]
++ getDefenceDice() : Die[]
++ getPlayers() : Player[]
++ getPlayerOrder() : Player[]
++ getActivePlayer() : Player
+
++ setMap(map : Map) : void
++ setUndrawnCards(undrawnCards : ArrayList&lt;Card&gt;) : void
++ setDrawnCards(drawnCards : ArrayList&lt;Card&gt;) : void
++ drawCard(playerToGiveCardTo : Player) : Card
++ setAttackDice(attackDice : Die[]) : void
++ setDefenceDice(defenceDice : Die[]) : void
++ setPlayers(players : Player[]) : void
++ setPlayerOrder(players : Player[]) : void
++ setActivePlayer(activePlayer : Player) : void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>198</x>
+      <y>21</y>
+      <w>42</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+
+
+
+
+
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>120.0;110.0;20.0;110.0;20.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>414</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>486</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>579</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>204</x>
+      <y>636</y>
+      <w>105</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>330.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>327</x>
+      <y>414</y>
+      <w>129</w>
+      <h>195</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;410.0;50.0;410.0;630.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>543</x>
+      <y>294</y>
+      <w>9</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;1030.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>312</y>
+      <w>24</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>240</y>
+      <w>24</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>249</x>
+      <y>603</y>
+      <w>9</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>621</y>
+      <w>9</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>246</x>
+      <y>504</y>
+      <w>63</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>246</x>
+      <y>441</y>
+      <w>63</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>190.0;10.0;110.0;10.0;110.0;130.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>267</x>
+      <y>411</y>
+      <w>189</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>610.0;10.0;610.0;50.0;80.0;50.0;80.0;420.0;10.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>204</y>
+      <w>273</w>
+      <h>342</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>890.0;100.0;860.0;100.0;860.0;10.0;10.0;10.0;10.0;1120.0;100.0;1120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>174</x>
+      <y>207</y>
+      <w>270</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>880.0;110.0;840.0;110.0;840.0;10.0;10.0;10.0;10.0;130.0;90.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>420</y>
+      <w>198</w>
+      <h>93</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>560.0;290.0;640.0;290.0;640.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>426</y>
+      <w>39</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#FFFFFF</panel_attributes>
+    <additional_attributes>110.0;580.0;50.0;580.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>417</x>
+      <y>192</y>
+      <w>510</w>
+      <h>177</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>1620.0;570.0;1680.0;570.0;1680.0;10.0;10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>711</x>
+      <y>330</y>
+      <w>72</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>220.0;110.0;40.0;110.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>654</x>
+      <y>282</y>
+      <w>9</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>606</x>
+      <y>333</y>
+      <w>21</w>
+      <h>69</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>50.0;210.0;10.0;210.0;10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>639</x>
+      <y>339</y>
+      <w>21</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>639</x>
+      <y>441</y>
+      <w>21</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>654</x>
+      <y>441</y>
+      <w>99</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>310.0;280.0;310.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>441</y>
+      <w>27</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>60.0;550.0;60.0;510.0;10.0;510.0;10.0;20.0;70.0;20.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>396</y>
+      <w>81</w>
+      <h>9</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;250.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>696</x>
+      <y>342</y>
+      <w>45</w>
+      <h>57</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>130.0;10.0;130.0;150.0;10.0;150.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>276</y>
+      <w>39</w>
+      <h>123</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+&lt;&lt;uses&gt;&gt;</panel_attributes>
+    <additional_attributes>110.0;10.0;110.0;350.0;10.0;350.0;10.0;390.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>513</x>
+      <y>411</y>
+      <w>114</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>360.0;660.0;270.0;660.0;270.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>294</y>
+      <w>303</w>
+      <h>147</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>990.0;10.0;550.0;10.0;550.0;470.0;10.0;470.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>435</x>
+      <y>276</y>
+      <w>288</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>940.0;10.0;940.0;50.0;550.0;50.0;550.0;800.0;10.0;800.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>525</y>
+      <w>207</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>670.0;10.0;550.0;10.0;550.0;200.0;30.0;200.0;30.0;250.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>285</x>
+      <y>459</y>
+      <w>342</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>1120.0;10.0;980.0;10.0;980.0;440.0;30.0;440.0;30.0;660.0;10.0;660.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>357</y>
+      <w>63</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+fg=#00aa00</panel_attributes>
+    <additional_attributes>190.0;10.0;10.0;10.0;10.0;820.0</additional_attributes>
+  </element>
+</diagram>
