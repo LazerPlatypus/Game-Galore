@@ -1,6 +1,5 @@
 package menu;
 	
-import com.sun.xml.internal.fastinfoset.algorithm.BooleanEncodingAlgorithm;
 
 import javafx.application.Application;
 import javafx.stage.Stage;

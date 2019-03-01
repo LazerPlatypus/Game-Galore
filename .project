@@ -22,9 +22,24 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/application/risk</name>
+			<name>src/battleship.src</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/Risk/src/application</locationURI>
+			<locationURI>PROJECT_LOC/BattleshipProject/src</locationURI>
+		</link>
+		<link>
+			<name>src/blackjack.src</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Final-Project/src</locationURI>
+		</link>
+		<link>
+			<name>src/risk.src</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/src</locationURI>
+		</link>
+		<link>
+			<name>src/uno.src</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Uno/src</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
