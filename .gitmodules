@@ -1,6 +1,6 @@
 [submodule "risk"]
 	path = Risk
-	url = ../Risk
+	url = https://github.com/LazerPlatypus/Risk.git
 [submodule "Uno"]
 	path = Uno
 	url = https://github.com/nmolstad/Uno.git
