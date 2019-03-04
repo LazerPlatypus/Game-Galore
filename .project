@@ -41,5 +41,10 @@
 			<type>2</type>
 			<locationURI>PROJECT_LOC/Uno/src</locationURI>
 		</link>
+		<link>
+			<name>src/menu/view/FXML</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Project%20Resources/FXML</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>
