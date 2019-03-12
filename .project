@@ -22,29 +22,64 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/battleship.src</name>
+			<name>Resources</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/BattleshipProject/src</locationURI>
+			<locationURI>PROJECT_LOC/Risk/Resources</locationURI>
 		</link>
 		<link>
-			<name>src/blackjack.src</name>
+			<name>src/Ships</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/Final-Project/src</locationURI>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/Ships</locationURI>
 		</link>
 		<link>
-			<name>src/risk.src</name>
+			<name>src/blackjack</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/Risk/src</locationURI>
+			<locationURI>PROJECT_LOC/Final-Project/src/blackjack</locationURI>
 		</link>
 		<link>
-			<name>src/uno.src</name>
+			<name>src/controller</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/Uno/src</locationURI>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/controller</locationURI>
+		</link>
+		<link>
+			<name>src/images</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/images</locationURI>
+		</link>
+		<link>
+			<name>src/models</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/models</locationURI>
+		</link>
+		<link>
+			<name>src/risk</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/src/risk</locationURI>
+		</link>
+		<link>
+			<name>src/uno</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Uno/src/uno</locationURI>
+		</link>
+		<link>
+			<name>src/views</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/views</locationURI>
 		</link>
 		<link>
 			<name>src/menu/view/FXML</name>
 			<type>2</type>
 			<locationURI>PROJECT_LOC/Project%20Resources/FXML</locationURI>
+		</link>
+		<link>
+			<name>src/risk/views/FXML</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/Resources/FXML</locationURI>
+		</link>
+		<link>
+			<name>src/risk/views/Images</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/Resources/Images</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>
