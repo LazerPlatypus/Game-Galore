@@ -1,13 +1,14 @@
 package menu;
 	
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader;
+
+import java.util.Arrays;
+import java.util.Random;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import risk.models.Die;
+import risk.models.enums.DieType;
 
 
 public class Main extends Application {

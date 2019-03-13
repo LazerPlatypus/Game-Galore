@@ -81,5 +81,15 @@
 			<type>2</type>
 			<locationURI>PROJECT_LOC/Risk/Resources/Images</locationURI>
 		</link>
+		<link>
+			<name>Risk/src/risk/views/FXML</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/Resources/FXML</locationURI>
+		</link>
+		<link>
+			<name>Risk/src/risk/views/Images</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Risk/Resources/Images</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

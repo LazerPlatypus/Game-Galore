@@ -6,38 +6,38 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.StartMenuController">
+<VBox prefHeight="400.0" prefWidth="640.0" stylesheets="@style1.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.StartMenuController">
   <children>
       <VBox alignment="CENTER" prefHeight="402.0" prefWidth="640.0" style="-fx-background-color: #333333;">
          <children>
-            <Label prefHeight="74.0" prefWidth="342.0" text="Game Galore" textAlignment="CENTER" textFill="GOLD">
+            <Label alignment="CENTER" prefHeight="74.0" prefWidth="444.0" styleClass="winnerTitle" text="Game Galore" textAlignment="CENTER" textFill="GOLD">
                <font>
                   <Font name="Ubuntu Regular" size="54.0" />
                </font>
             </Label>
             <Button fx:id="battleshipButton" alignment="CENTER" mnemonicParsing="false" onAction="#startBattleship" prefHeight="25.0" prefWidth="200.0" text="Battle Ship" textAlignment="CENTER">
                <VBox.margin>
-                  <Insets bottom="10.0" top="10.0" />
+                  <Insets bottom="5.0" top="5.0" />
                </VBox.margin>
             </Button>
             <Button fx:id="blackjackButton" alignment="CENTER" layoutX="274.0" layoutY="185.0" mnemonicParsing="false" onAction="#startBlackjack" style="-fx-pref-width: 200;" text="Blackjack" textAlignment="CENTER">
                <VBox.margin>
-                  <Insets bottom="10.0" top="10.0" />
+                  <Insets bottom="5.0" top="5.0" />
                </VBox.margin>
             </Button>
             <Button fx:id="riskButton" alignment="CENTER" layoutX="274.0" layoutY="198.0" mnemonicParsing="false" onAction="#startRisk" style="-fx-pref-width: 200;" text="Risk" textAlignment="CENTER">
                <VBox.margin>
-                  <Insets bottom="10.0" top="10.0" />
+                  <Insets bottom="5.0" top="5.0" />
                </VBox.margin>
             </Button>
             <Button fx:id="unoButton" alignment="CENTER" layoutX="274.0" layoutY="210.0" mnemonicParsing="false" onAction="#startUno" style="-fx-pref-width: 200;" text="Uno" textAlignment="CENTER">
                <VBox.margin>
-                  <Insets bottom="10.0" top="10.0" />
+                  <Insets bottom="5.0" top="5.0" />
                </VBox.margin>
             </Button>
             <Button fx:id="exitButton" alignment="CENTER" layoutX="230.0" layoutY="265.0" mnemonicParsing="false" onAction="#exit" style="-fx-pref-width: 200;" text="Exit" textAlignment="CENTER">
                <VBox.margin>
-                  <Insets bottom="10.0" top="10.0" />
+                  <Insets bottom="5.0" top="5.0" />
                </VBox.margin>
             </Button>
          </children>
