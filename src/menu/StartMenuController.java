@@ -3,7 +3,6 @@ package menu;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
-import views.Main;
 
 public class StartMenuController {
 
@@ -19,7 +18,7 @@ public class StartMenuController {
 	private Button exitButton;
 	@FXML
 	private void startBattleship() {
-		views.Main main = new Main();
+		BattleshipViews.Main main = new BattleshipViews.Main();
 		main.start(stage);
 	}
 	@FXML 

@@ -27,9 +27,24 @@
 			<locationURI>PROJECT_LOC/Risk/Resources</locationURI>
 		</link>
 		<link>
-			<name>src/Ships</name>
+			<name>src/BattleshipController</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/BattleshipProject/src/Ships</locationURI>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/BattleshipController</locationURI>
+		</link>
+		<link>
+			<name>src/BattleshipModels</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/BattleshipModels</locationURI>
+		</link>
+		<link>
+			<name>src/BattleshipShips</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/BattleshipShips</locationURI>
+		</link>
+		<link>
+			<name>src/BattleshipViews</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/BattleshipProject/src/BattleshipViews</locationURI>
 		</link>
 		<link>
 			<name>src/blackjack</name>
@@ -37,19 +52,9 @@
 			<locationURI>PROJECT_LOC/Final-Project/src/blackjack</locationURI>
 		</link>
 		<link>
-			<name>src/controller</name>
-			<type>2</type>
-			<locationURI>PROJECT_LOC/BattleshipProject/src/controller</locationURI>
-		</link>
-		<link>
 			<name>src/images</name>
 			<type>2</type>
 			<locationURI>PROJECT_LOC/BattleshipProject/src/images</locationURI>
-		</link>
-		<link>
-			<name>src/models</name>
-			<type>2</type>
-			<locationURI>PROJECT_LOC/BattleshipProject/src/models</locationURI>
 		</link>
 		<link>
 			<name>src/risk</name>
@@ -60,11 +65,6 @@
 			<name>src/uno</name>
 			<type>2</type>
 			<locationURI>PROJECT_LOC/Uno/src/uno</locationURI>
-		</link>
-		<link>
-			<name>src/views</name>
-			<type>2</type>
-			<locationURI>PROJECT_LOC/BattleshipProject/src/views</locationURI>
 		</link>
 		<link>
 			<name>src/menu/view/FXML</name>
